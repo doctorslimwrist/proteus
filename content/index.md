@@ -1,10 +1,7 @@
 ---
-title: The Digital Garden
+title: Toward what can be
 author: Mina
 ---
 Completely [[transforming your life]] is a daunting task.
 
-I think it's best if we [[try to go together]].
-
-
--Mina ♥
+Come with me.

@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer(
     {
     links: {
-      GitHub: "https://github.com/schneider7",
+      GitHub: "https://github.com/doctorslimwrist",
     },
   }),
 }
@@ -27,14 +27,14 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.DesktopOnly(Component.Search()),
+    Component.DesktopOnly(Component.Graph()),
+    Component.DesktopOnly(Component.Explorer()),
+
   ],
 
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.DesktopOnly(Component.Backlinks()),
-    Component.DesktopOnly(Component.Explorer()),
+    
   ],
 }
 
